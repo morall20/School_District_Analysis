@@ -13,12 +13,20 @@ During the analysis we uncovered that there was relativily small drop in the ave
 
 Note: the summary before removing the THS 9th grader;
 
+![school_district_summary_w_THS_9th  revised](https://user-images.githubusercontent.com/82338072/119266805-360c0280-bbba-11eb-9259-d7ee75553659.PNG)
+
 And the summary after;
+
+![school_district_summary_wo_THS_9th revised](https://user-images.githubusercontent.com/82338072/119267127-5daf9a80-bbbb-11eb-9f3d-c16647aa6359.PNG)
 
 As you can see the average math score drop from 78.99 to 78.93; the reading went from 81.88 to 81.86 and overall passing percentages follow suit with average passing percentage on math and reading going from 74.98 and 85.81 to 74.76 and 85.66.
 
 ## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+![School_Summary_w_THS_9th_revised](https://user-images.githubusercontent.com/82338072/119266843-65bb0a80-bbba-11eb-90d1-fe1f3d386fac.PNG)
+
 Before removal of the Thomas High School 9th graders scores the overall passing score was 65.07 with average math score 83.35, average reading score 83.89%, passing math 66.91%, passing reading score 69.66.
+
+![School_Summary_wo_THS_9th_revised](https://user-images.githubusercontent.com/82338072/119267063-2f31bf80-bbbb-11eb-98b5-d123a34e8933.PNG)
 
 After removing the THS 9th graders from the calculations the grades changed to an overall passing percentage 90.63% with an average math score of 83.35% and a average reading score of 83.73%.  
 
@@ -26,20 +34,37 @@ After removing the THS 9th graders from the calculations the grades changed to a
 Here is a snapshot of the Math and Reading scores by grades.
 Reading Summary
 
+![Reading_Summary](https://user-images.githubusercontent.com/82338072/119266870-7f5c5200-bbba-11eb-8bd8-06884383354a.PNG)
+
 Math Summary
+
+![Math_Summary](https://user-images.githubusercontent.com/82338072/119266881-897e5080-bbba-11eb-8b0d-5ed62bb73ccc.PNG)
 
 There are minimal differences between the schools other than the THS 9th graders that are missing because they were NAN from the summary.
 
 ## Scores by school spending
 Our analysis shows the most effective spending amount came out to less than $584 per student. Turned out as the school district spent more money the overall school performance decreased.
 
+![School_Spending](https://user-images.githubusercontent.com/82338072/119266902-9a2ec680-bbba-11eb-93c7-6dac3b8f2a1f.PNG)
+
 ## Scores by school size
 The overall passing scores were better with the smaller the school size. Our analysis shows as the school got bigger in size the overall passing score decreased.
+
+![School_BY_Population](https://user-images.githubusercontent.com/82338072/119266907-a0bd3e00-bbba-11eb-8735-7645bfff8f42.PNG)
 
 ## Scores by school type
 The overall passing performance from the charter school is far better that district school. I found that the overall district school results were not affected after the replacing NaN values for THS 9th graders.
 
+![grades_by_school_type](https://user-images.githubusercontent.com/82338072/119266922-af0b5a00-bbba-11eb-9f5c-826c140b6909.PNG)
 
+## Summary
+In my Disctrict School Analysis, There was slight changes in overall passing result but it still has significant contribution to "Thomas High School" and results are found as
+
+The overall passing % of Thomas High School was 90.94 % and it got dropped to 65.07.
+The math scores from Thomas High School was 83.41% and it got dropped to 83.35%.
+The reading scores from Thomas High School was 83.84% and it got dropped to 83.98%.
+The passing Math % score of Thomas High School was 93.27% and it got dropped to 66.91%.
+The passing Reading % Score of Thomas High School was 97.30% and it got dropped to 69.66%.
 
 
 
